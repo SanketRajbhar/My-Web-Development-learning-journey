@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML One Shot</title>
+
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nishant Saini - h1</h1>
+    <h2>Nishant Saini - h2</h2>
+    <h3>Nishant Saini - h3</h3>
+    <h4>Nishant Saini - h4</h4>
+    <h5>Nishant Saini - h5</h5>
+    <h6>Nishant Saini - h6</h6>
+
+    <p>this is paragraph tag</p>
+
+    <p>I am learning full stack web development</p>
+
+    <hr>
+
+    <img src="image.png" alt="Mukesh Dhirubhai Ambani Picture" width="100px" height="100px">
+
+    <a href="https://en.wikipedia.org/wiki/Mukesh_Ambani" target="_blank">Click here</a>
+
+    <p> <b>Mukesh Dhirubhai Ambani</b> (born <i>19 April 1957</i>) is an <u>Indian businessman</u>. <br> He is the
+        chairman and managing director of <strong>Reliance Industries</strong>, the largest public company in India by
+        market capitalisation in 2025. As of June 2026, he is the richest person in Asia and the <em>22nd richest in the
+            world</em>, with a net worth of <mark>US$91.8 billion</mark>.[5][6] He has attracted fame due to his growth
+        and wealth, and criticism for being a plutocrat,[7] and reports of market manipulation, political corruption,
+        cronyism, and exploitation.[8][9][10][11]</p>
+
+    <video width="320" height="240" controls poster="image.png">
+        <source src="https://www.pexels.com/download/video/16058046/">
+    </video>
+
+
+    <ul style="list-style-type:circle;">
+        <h3>Unordered list</h3>
+        <li>3 chips ke packet</li>
+        <li>500gram Chinni</li>
+        <li>Biscuits
+            <ol>
+                <li>Parle G</li>
+                <li>CNC</li>
+            </ol>
+        </li>
+        <li>Apples</li>
+    </ul>
+
+
+    <ol type="i">
+        <h3>Ordered list</h3>
+        <li>Gas jalao</li>
+        <li>Pani garam karo</li>
+        <li>chai ki samagri dalo</li>
+        <li>milk dalo</li>
+        <li>Chai serve karo</li>
+    </ol>
+
+
+    <h2>Table</h2>
+
+    <!-- <table>
+        <tr>
+            <th> td 1 </th>
+            <th> td 2 </th>
+            <th> td 3 </th>
+        </tr>
+        <tr>
+            <td> td 1 </td>
+            <td> td 2 </td>
+            <td> td 3 </td>
+        </tr>
+        <tr>
+            <td> td 1 </td>
+            <td> td 2 </td>
+            <td> td 3 </td>
+        </tr>
+    </table> -->
+
+
+    <table>
+        <caption>Table</caption>
+        <tr>
+            <td>col 1</td>
+            <td>col 2</td>
+            <td>col 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">row 1 cell 1</td>
+            <td>row 1 cell 2</td>
+            <td>row 1 cell 3</td>
+        </tr>
+        <tr>
+            <td>row 2 cell 2</td>
+            <td>row 2 cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">row 3 cell 1</td>
+        </tr>
+    </table>
+
+
+    <h3>form</h3>
+
+    <form>
+        <label for="name">Name : </label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+        <br>
+        <label for="">Email : </label>
+        <input type="email" placeholder="Enter your email" required>
+        <br>
+         <label for="">Choose you color : </label>
+        <input type="color" placeholder="Choose you color" required>
+        <br>
+        <label for="">Mobile number</label>
+       <input type="number" placeholder="Enter mobile number" required>
+       <br>
+       <label for="">Password : </label>
+        <input type="password" placeholder="Enter your password" required>
+
+        <br>
+        <input type="checkbox">
+        <br>
+
+        <label for="">Gender : </label>
+        <input type="radio" name="gender" id="">
+        <label for="">Male</label>
+
+        <input type="radio" name="gender" id="">
+        <label for="">Female</label>
+
+
+        <br>
+
+        <label for="">Select your country : </label>
+
+        <select name="" id="">
+            <option value="">India</option>
+            <option value="">USA</option>
+            <option value="">UK</option>
+        </select>
+
+        <br>
+
+        <label for="">About you : </label>
+        <textarea name="" id="" placeholder="write something about you..."></textarea>
+
+        <br>
+        <button>Submit</button>
+    </form>
+
+
+    <div style="border: 1px solid red;">this is block element</div>
+    <br>
+
+    <span style="border: 1px solid purple;">this is inline element </span>
+
+
+    <!-- <iframe src="" frameborder="0"></iframe> -->
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2279.488013746496!2d78.07764597114567!3d30.45506097612686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d11d9feb4e71%3A0xaa16ce3217bcb552!2sHotel%2030%20Degree%20North%20Mussoorie!5e0!3m2!1sen!2sin!4v1789992425490!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z3fr0LQefWk?si=_2QSZZdeulvR59PZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+
+</html>
